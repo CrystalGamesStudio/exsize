@@ -1,53 +1,56 @@
 # ExSize
 
-## Opis
-ExSize to interaktywne narzędzie, które ma na celu wspieranie nauki i zabawy. Aplikacja zawiera dwa panele: dla rodziców i dzieci, co umożliwia łatwe zarządzanie zadaniami oraz monitorowanie postępów.
+## Description
+ExSize is an interactive tool that aims to support learning and fun. The application includes two panels: for parents and children, which allows easy management of tasks and monitoring progress.
 
-## Funkcjonalności
+## Functionalities
 
-### Panel Rodzica
-- **Zarządzanie zadaniami**: Rodzice mogą tworzyć, edytować i usuwać zadania dla swoich dzieci.
-- **Monitorowanie postępów**: Możliwość przeglądania wyników i postępów dzieci w wykonywaniu zadań.
-- **Ustawienia konta**: Opcje personalizacji profilu oraz zarządzania subskrypcjami.
+### Parent Panel
+- **Task Management**: Parents can create, edit and delete tasks for their children.
+- **Progress Monitoring**: Ability to view children's results and progress in completing tasks.
 
-### Panel Dziecka
-- **Wykonywanie zadań**: Dzieci mogą przeglądać i wykonywać przypisane im zadania.
-- **Nagrody i osiągnięcia**: System nagród za ukończenie zadań oraz osiągnięcia, które motywują do nauki.
-- **Interaktywne misje**: Dzieci mogą brać udział w misjach, które rozwijają ich umiejętności.
+- **Account Settings**: Options for personalizing the profile and managing subscriptions.
 
-### Przyszłe Funkcjonalności
-- **Eventy**: Organizacja wydarzeń edukacyjnych i zabawowych.
-- **Karnet**: Możliwość zakupu karnetów na dodatkowe funkcje i wydarzenia.
-- **Inne**: Planowane są dodatkowe funkcje, które będą rozwijać aplikację w przyszłości.
+### Child Panel
+- **Completing Tasks**: Children can view and complete tasks assigned to them.
 
-## Technologie
+- **Rewards and Achievements**: A reward system for completing tasks and achievements that motivate learning.
+
+- **Interactive Missions**: Children can take part in missions that develop their skills.
+
+### Future Features
+- **Events**: Organization of educational and entertainment events.
+- **Pass**: Possibility to buy passes for additional features and events.
+- **Other**: Additional features are planned that will develop the application in the future.
+
+## Technologies
 - **Frontend**: React, HTML, CSS
 - **Backend**: Node.js, Express
-- **Baza Danych**: MongoDB
+- **Database**: MongoDB
 
-## Instalacja
-Aby uruchomić aplikację lokalnie, wykonaj następujące kroki:
+## Installation
+To run the application locally, follow these steps:
 
-1. Sklonuj repozytorium:
-   ```bash
-   git clone https://github.com/twoje-repozytorium.git
-   ```
-2. Przejdź do katalogu projektu:
-   ```bash
-   cd twoje-repozytorium
-   ```
-3. Zainstaluj zależności:
-   ```bash
-   npm install
-   ```
-4. Uruchom aplikację:
-   ```bash
-   npm start
-   ```
+1. Clone the repository:
+```bash
+git clone https://github.com/your-repository.git
+```
+2. Go to the project directory:
+```bash
+cd your-repository
+```
+3. Install dependencies:
+```bash
+npm install
+```
+4. Run the application:
+```bash
+npm start
+```
 
-## Licencja
-Ten projekt jest objęty licencją MIT. Zobacz plik LICENSE, aby uzyskać więcej informacji.
+## License
+This project is licensed under the MIT license. See the LICENSE file for more information.
 
-## Kontakt
-Jeśli masz pytania lub sugestie, skontaktuj się z nami:
-- Email: kontakt@twojadomena.pl
+## Contact
+If you have any questions or suggestions, please contact us:
+- Email: crystalgamesstudio9@gmail.com
