@@ -1,163 +1,148 @@
-# ExSize - Rewards and Tasks System 🎮🎯🎉
-Purpose and target group
+ExSize - Rewards and Tasks System 🎮🎯🎉
+Cel i grupa docelowa
 
-ExSize is an application that motivates children to perform household chores through a gamification system based on tasks, rewards in the form of coins and VIP points, and avatar personalization.
+ExSize to aplikacja motywująca dzieci do wykonywania obowiązków domowych poprzez system grywalizacji oparty na zadaniach, nagrodach w postaci monet i punktach VIP oraz personalizacji awatarów.
 
-#### Target group: 
-Children: Perform tasks, earn coins and VIP points, personalize avatars. No specific age range - the application is to be universal.
-Parents: Create and manage tasks for children, approve their completion, supervise children's accounts.
+    Grupa docelowa:
+        Dzieci: Wykonują zadania, zdobywają monety i punkty VIP, personalizują awatary. Brak określonego przedziału wiekowego – aplikacja ma być uniwersalna.
+        Rodzice: Tworzą i zarządzają zadaniami dla dzieci, zatwierdzają ich wykonanie, nadzorują konta dzieci.
 
-## Platform
+Platforma
 
-The application consists of:
-Website (responsive - desktop and mobile).
-Mobile application (Android / iOS).
-Data synchronization between platforms via backend required.
+    Aplikacja składa się z:
+        Strony internetowej (responsywnej – desktop i mobile).
+        Aplikacji mobilnej (iOS).
+    Wymagana synchronizacja danych między platformami za pomocą backendu.
 
-## Size Pass 🎟️
+Size Pass 🎟️
 
-Description: Special pass that unlocks additional features, including the Achievements tab.
-Price: $30 per season (2 months).
-Free Size Pass: Can be obtained after a year of regular task completion - minimum 5 tasks per day for 365 days (continuity required).
-Validity: 2 months (season). After expiration:
-Users lose access to the Achievements tab unless they renew the Size Pass within 7 days of expiration.
-No effect on coins or inventory.
-Notes: The Ultra variant has been discontinued - there is only one type of Size Pass.
+    Opis: Specjalny karnet odblokowujący dodatkowe funkcje, w tym zakładkę Osiągnięcia (Achievements).
+    Cena: 30 USD na sezon (2 miesiące).
+    Darmowy Size Pass: Można go zdobyć po roku regularnego wykonywania zadań – minimum 5 zadań dziennie przez 365 dni (ciągłość wymagana).
+    Ważność: 2 miesiące (sezon). Po wygaśnięciu:
+        Użytkownicy tracą dostęp do zakładki Osiągnięcia, chyba że odnowią Size Pass w ciągu 7 dni od wygaśnięcia.
+        Brak wpływu na monety czy inwentarz.
 
-## Coins 💰
+Monety (Coins) 💰
 
-Rules for obtaining:
-Coins are obtained for completing tasks and missions.
-Parents set coin rewards for tasks (approve their completion).
-Types of tasks and rewards:
+    Zasady zdobywania:
+        Monety zdobywane są za ukończenie zadań i misji.
+        Rodzice ustawiają nagrody w monetach za zadania (zatwierdzają ich wykonanie).
+        Rodzaje zadań i nagrody:
+        Rodzaj zadania	Maks. ilość/dzień	Nagroda w monetach	Nagroda w punktach VIP (dla Size Pass)
+        Zwykłe	30	0-100 💵	0-100 VIP
+        Trudne	15	100-300 💵	100-300 VIP
+        Duże	5	300-500 💵	300-350 VIP
+        Ekstremalne	1	500-1000 💵	350-500 VIP
+    Misje i nagrody (Missions and rewards):
+        Przykłady: „Zrób dziś 20 zadań” – nagroda: 1000 monet.
+        Definiowane przez autora systemu, dostępne w określonych sezonach.
+    Przechowywanie: Monety nie zerują się – są przechowywane bezterminowo.
 
-Type of task Max. amount/day Reward in coins Reward in VIP points (for Size Pass)
+Sklep (Store) 🎨
 
-Normal 30 0-100 💵 0-100 VIP
+    Warianty:
+        General: Stała oferta przedmiotów.
+        Event: Limitowane czasowo przedmioty (dostępne przez 2 tygodnie w trakcie sezonu).
+    Przedmioty:
+        Avatary, dekoracje awatarów, ramki do awatarów (tylko kosmetyczne, bez wpływu na funkcjonalność).
+    Liczba kopii:
+        Przedmioty 0-100 monet: 50 sztuk.
+        Przedmioty 100+ monet: 10 sztuk.
+    Zmiana przedmiotów: Bez dodatkowych opłat za zmianę zakupionego przedmiotu.
 
-Hard 15 100-300 💵 100-300 VIP
+Osiągnięcia (Achievements) 🏅
 
-Large 5 300-500 💵 300-350 VIP
+    Dostępność: Zakładka dostępna tylko dla posiadaczy Size Pass (zablokowana bez karnetu).
+    Różnice od misji: Długoterminowe cele definiowane przez autora systemu, losowo przypisywane użytkownikom.
+    Przykłady:
+        „Wydaj 10 000 monet w tydzień” – nagroda: 20 000 monet.
+        „Zbierz 500 monet”.
+    Przechowywanie: Postępy zerują się po 24 godzinach od przypisania osiągnięcia.
 
-Extreme 1 500-1000 💵 350-500 VIP
+Misje (Missions) 📅
 
-Event missions:
+    Kategorie:
+        Codzienne: Losowane co dzień, max 10 misji.
+        Cotygodniowe: Losowane co tydzień, max 10 misji.
+        Coroczne: Losowane co rok, max 10 misji.
+    Nagrody:
+        Codzienne: 10-30 monet.
+        Cotygodniowe: 40-70 monet.
+        Coroczne: 70-1000 monet.
+    Odświeżanie:
+        Koszt: 100 monet za odświeżenie kategorii.
+        Limity:
+            Codzienne: 2x/dzień.
+            Cotygodniowe: 2x/tydzień.
+            Coroczne: 2x/rok.
 
-Examples: "Do 20 tasks today" - reward: 1000 coins.
+Ekwipunek i personalizacja awatara
 
-Defined by the system author, available in specific seasons.
+    Ekwipunek:
+        Przechowuje wszystkie zakupione przedmioty.
+        Brak limitu liczby przedmiotów.
+    Personalizacja:
+        Zmiana wyglądu awatara (avatar, dekoracje, ramki) – bez opłat.
 
-Storage: Coins do not reset to zero - they are stored indefinitely.
+Interfejs użytkownika (UI)
 
-## Store 🎨
+    Dashboard (po zalogowaniu):
+        Kafelki:
+            Size Pass (duży kafelek).
+            Misje.
+            Osiągnięcia.
+            Zadania.
+            Przyjaciele.
+            Sklep.
+        Menu górne:
+            Ustawienia (w tym włączanie/wyłączanie powiadomień).
+            Przełączenie między sekcją rodzica/dziecka.
+            Powiadomienia.
+            Profil.
+            Link do strony twórcy (www).
+    Konta:
+        Rodzice: Oddzielne konto z panelem do dodawania/zarządzania zadaniami i przypisywania kont dzieci (wyszukiwanie konta dziecka i oznaczenie go).
+        Dzieci: Oddzielne konto z dostępem do Dashboardu i funkcji grywalizacji.
+    Responsywność: Aplikacja działa na desktopach, tabletach i telefonach.
 
-Variants:
+Techniczne wymagania
 
-General: Permanent offer of items.
-Event: Time-limited items (available for 2 weeks during the season).
+    Backend:
+        Wymagany do synchronizacji danych między stroną internetową a aplikacją mobilną.
+        Przechowywane dane:
+            Konta użytkowników (rodzice i dzieci).
+            Monety i punkty VIP.
+            Zadania, misje, osiągnięcia.
+            Inwentarz i historia zakupów.
+        Sugerowana baza: Firebase.
+    Logowanie:
+        Przez konta Google (autoryzacja via Firebase Authentication).
+    Weryfikacja zadań:
+        Dziecko zgłasza ukończenie zadania, rodzic zatwierdza je z poziomu swojego konta.
 
-Items:
+Powiadomienia
 
-Avatars, avatar decorations, avatar frames (cosmetic only, no impact on functionality).
+    Funkcjonalność:
+        Przypomnienia o zadaniach.
+        Informacje o wygaśnięciu Size Pass.
+    Ustawienia: Włączanie/wyłączanie w sekcji Ustawienia.
 
-Number of copies:
+Licencja
 
-0-100 coin items: 1000 pieces.
+    Projekt jest licencjonowany na licencji MIT (patrz plik LICENSE).
 
-100+ coin items: 150 pieces.
+Kontakt
 
-Changing items: No additional fees for changing a purchased item.
+    Email: crystalgamesstudio9@gmail.com
 
-## Achievements 🏅
+Uwagi dla programisty
 
-Availability: Tab available only to Size Pass holders (locked without the pass).
-
-Differences from missions: Long-term goals defined by the system author, randomly assigned to users.
-
-Examples:
-
-"Spend 10,000 coins in a week" - reward: 20,000 coins.
-
-"Collect 500 coins".
-
-Storage: Progress resets after 24 hours from assigning the achievement.
-
-## Missions 📅
-
-Categories:
-Daily: Drawn every day, max 10 missions.
-Weekly: Drawn every week, max 10 missions.
-Annual: Drawn every year, max 10 missions.
-Rewards:
-Daily: 10-30 coins.
-Weekly: 40-70 coins.
-Annual: 70-1000 coins.
-Refresh:
-Cost: 100 coins to refresh a category.
-Limits:
-Daily: 2x/day.
-Weekly: 2x/week.
-Annual: 2x/year.
-
-## Inventory and avatar customization
-
-Inventory:
-Stores all purchased items.
-No limit on the number of items.
-Personalization:
-Change the appearance of your avatar (avatar, decorations, frames) - free of charge.
-
-## User Interface (UI)
-
-Dashboard (after logging in):
-Tiles:
-Size Pass (large tile).
-Missions.
-Achievements.
-Tasks.
-Friends.
-Shop.
-Top Menu:
-Settings (including enabling/disabling notifications).
-Switch between parent/child section.
-Notifications.
-Profile.
-Link to creator's website (www).
-Accounts:
-Parents: Separate account with a panel for adding/managing tasks and assigning child accounts (search for a child account and tag it).
-Children: Separate account with access to Dashboard and gamification features.
-Responsiveness: The application works on desktops, tablets and phones.
-
-## Technical requirements
-
-Backend:
-Required for data synchronization between the website and the mobile application.
-Stored data:
-User accounts (parents and children).
-Coins and VIP points.
-Tasks, missions, achievements.
-Inventory and purchase history.
-Suggested database: Firebase.
-Login:
-Via Google accounts (authorization via Firebase Authentication).
-Task verification:
-The child reports the completion of the task, the parent approves it from your account.
-
-## Notifications
-
-Functionality:
-Task reminders.
-Size Pass expiration information.
-Settings: Enable/disable in Settings.
-
-## Future features
-
-Tile customization: Ability to change the layout of tiles in the Dashboard (planned for the future).
-
- ## License
-
-The project is licensed under the MIT license (see LICENSE file).
-
-## Contact
-
-Email: crystalgamesstudio9@gmail.com
+    Tech stack: Next.js (frontend), TypeScript, Firebase (backend i autoryzacja).
+    Struktura:
+        Komponenty dla Dashboardu, kafelków, sklepu, misji itd.
+        Oddzielne widoki/panele dla rodziców i dzieci.
+    API:
+        Synchronizacja danych użytkownika (monety, zadania, inwentarz).
+        Zarządzanie relacją rodzic-dziecko (przypisywanie kont).
+    Responsywność: Mobile-first design z dostosowaniem do desktopów.
